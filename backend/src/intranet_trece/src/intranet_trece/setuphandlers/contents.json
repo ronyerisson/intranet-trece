@@ -6,7 +6,7 @@
     "title": "Images",
     "description": "Image bank.",
     "_transitions": [
-     
+        
     ],
     "_allowed_types": [
       "Image"
