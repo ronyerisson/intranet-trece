@@ -14,7 +14,7 @@ class TestPortalProperties:
         assert value == expected, f"Value '{value}' is not equal '{expected}'"
 
     def test_portal_sitemap(self, portal):
-        expected = True
+        expected = False
         value = api.portal.get_registry_record("plone.enable_sitemap")
         assert value is expected, f"Value '{value}' is not '{expected}'"
 

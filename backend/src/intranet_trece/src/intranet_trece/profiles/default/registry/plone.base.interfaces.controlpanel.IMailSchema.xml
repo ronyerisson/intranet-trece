@@ -4,8 +4,8 @@
            prefix="plone"
            purge="false"
   >
-    <value key="email_from_name">Nova - Intranet TRE-CE</value>
-    <value key="smtp_host">smtp.tre-ce.jus.brrrrrrr</value>
-    <value key="smtp_port">99</value>
+    <value key="email_from_name">Nova Intranet TRE-CE</value>
+    <value key="smtp_host">smtp.tre-ce.jus.br</value>
+    <value key="smtp_port">25</value>
   </records>
 </registry>
