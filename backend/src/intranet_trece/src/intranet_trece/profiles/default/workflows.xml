@@ -20,4 +20,5 @@
       <bound-workflow workflow_id="intranet_folder_workflow" />
     </type>
   </bindings>
+  
 </object>

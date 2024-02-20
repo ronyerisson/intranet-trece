@@ -11,3 +11,4 @@ def atualiza_permissoes(context):
     wf_tool.updateRoleMappings()
     # Loga que modificação foi realizada
     logger.info("Permissões de workflow atualizadas")
+    
