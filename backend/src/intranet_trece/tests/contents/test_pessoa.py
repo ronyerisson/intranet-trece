@@ -40,7 +40,6 @@ class TestPessoa:
         "behavior",
         [
             "plone.namefromtitle",
-            "plone.leadimage",
             "plone.shortname",
             "plone.excludefromnavigation",
             "plone.versioning",
