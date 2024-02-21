@@ -1,6 +1,14 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="intranet_trece"
     >
+
+  <plone:behavior
+      name="intranet_trece.contact_info"
+      title="Contact Information"
+      description="Add e-mail and ramal fields to a contact."
+      provides=".contact_info.IContactInfo"
+      />
 
 </configure>

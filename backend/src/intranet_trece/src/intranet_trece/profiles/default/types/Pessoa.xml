@@ -30,12 +30,13 @@
   <property name="behaviors"
             purge="false"
   >
+    <element value="intranet_trece.contact_info" />
     <element value="plone.namefromtitle" />
     <element value="plone.shortname" />
-    <element value="plone.leadimage" />
     <element value="plone.excludefromnavigation" />
     <element value="plone.versioning" />
   </property>
+
 
   <!-- View information -->
   <property name="add_view_expr">string:${folder_url}/++add++Pessoa</property>
