@@ -1,4 +1,20 @@
+from intranet_trece import _
+from zope.interface import Invalid
+
 import re
+
+
+class BadValue(Invalid):
+    """Exception raised when a provided value is informed."""
+
+    __doc__ = _("O valor está incorreto")
+
+
+def validar_dados(data):
+    """Validar dados informados pelo usuário."""
+    value = data.email
+    if not (value and is_valid_email(value)):
+        raise BadValue(f"O email {value} não faz parte do domínio tre-ce.jus.br.")
 
 
 def is_valid_email(value: str) -> bool:
