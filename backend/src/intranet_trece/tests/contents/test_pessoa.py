@@ -44,6 +44,7 @@ class TestPessoa:
             "plone.shortname",
             "plone.excludefromnavigation",
             "plone.versioning",
+            "intranet_trece.contact_info",
         ],
     )
     def test_has_behavior(self, get_behaviors, behavior):
