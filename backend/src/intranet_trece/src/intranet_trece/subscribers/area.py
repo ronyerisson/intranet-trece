@@ -1,7 +1,7 @@
 from intranet_trece import logger
 from intranet_trece.content.area import Area
-from zope.lifecycleevent import ObjectAddedEvent
 from zope.event import notify
+from zope.lifecycleevent import ObjectAddedEvent
 from zope.lifecycleevent import ObjectModifiedEvent
 
 
@@ -20,6 +20,7 @@ def added(obj: Area, event: ObjectAddedEvent):
 def modified(obj: Area, event: ObjectModifiedEvent):
     """Post update handler for Area."""
     _update_excluded_from_nav(obj)
+
 
 def addedGroupUsers(obj: Area, event: ObjectAddedEvent):
     """Post creation handler for Area."""

@@ -12,7 +12,7 @@
       handler=".area.modified"
       />
 
-<subscriber
+  <subscriber
       for="intranet_trece.content.area.IArea
            zope.lifecycleevent.IObjectAddedEvent"
       handler=".area.addedGroupUsers"
