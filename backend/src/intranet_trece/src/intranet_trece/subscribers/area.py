@@ -20,3 +20,7 @@ def added(obj: Area, event: ObjectAddedEvent):
 def modified(obj: Area, event: ObjectModifiedEvent):
     """Post update handler for Area."""
     _update_excluded_from_nav(obj)
+
+def addedGroupUsers(obj: Area, event: ObjectAddedEvent):
+    """Post creation handler for Area."""
+    _update_excluded_from_nav(obj)

@@ -1,0 +1,7 @@
+*.pyc
+bin
+dados
+include
+lib
+lib64
+pyvenv.cfg
