@@ -37,7 +37,11 @@ const AreaView = (props) => {
             <Table.Row>
               <Table.Cell>Tipo de E-mail</Table.Cell>
               <Table.Cell singleLine>
-                {content.tipo_email ? <span>{content.tipo_email.title}</span> : ''}
+                {content.tipo_email ? (
+                  <span>{content.tipo_email.title}</span>
+                ) : (
+                  ''
+                )}
               </Table.Cell>
             </Table.Row>
             <Table.Row>
